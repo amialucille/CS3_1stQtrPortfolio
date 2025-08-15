@@ -12,8 +12,8 @@
 
 //let age = window.prompt("Enter your age : ", 15)
 //let maxAge = window.prompt("You will live until the ripe old age of : ", "100");
-//let numPerDay = window.prompt("NUmber of Snacks daily: ", 2)
-
+//let numPerDay = window.prompt("Number of Snacks daily: ", 2)
+/*
 let sure = window.confirm('Sure of your numbers?'${age}, ${maxAge}, ${numperday})
 if(sure){
     let totalRequired = (Number(perDay)*365) * (Number(maxAGE)) - (Number(AGE));
@@ -25,3 +25,4 @@ else{
     window.alert("Please click run again")
     
 }
+*/
