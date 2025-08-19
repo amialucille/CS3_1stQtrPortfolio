@@ -32,7 +32,7 @@ function getData() {
     
     if (sure) {
         let totalRequired = (Number(perDay) * 365) * (Number(maxAGE) - Number(AGE));
-        document.getElementById("result").innerHTML  
+        document.getElementById("result").innerHTML  =
             "Result: You will need " + totalRequired + " snacks to last you until the ripe old age of " + maxAGE + ".";
     } else {
         window.alert("Please click run again");
