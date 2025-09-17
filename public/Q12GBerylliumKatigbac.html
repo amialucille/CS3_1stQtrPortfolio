@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Q1 2nd Graded Exercise submitted by Amia Katigbac of 9Beryllium</h1>
+
+    <label> Meal Price:
+        <input id="meal" />
+    </label><br>
+
+    <label> Tip:
+        <input id="tip" />
+    </label> <br>
+
+    <label> Service Charge:
+        <input id="sc" />
+    </label><br>
+
+    <button onclick="getData()"> Accept Input</button>
+     <p id="result"></p>
+
+<script>
+function getData() {
+    let meal = document.getElementById("meal").value;
+    let tip = document.getElementById("tip").value;
+    let sc = document.getElementById("sc").value;
+    let sure = window.confirm("Are you sure about your numbers?");
+    if (sure) {
+        let totalCost = Number(meal) + Number(tip) + (Number(sc) / 100 * Number(meal));
+        document.getElementById("result").innerHTML =
+            "Total Meal: " + totalCost.toFixed(2);
+    } else {
+        window.alert("Please click Accept Input again");
+    }
+}
+</script>
+</body>
+</html>
