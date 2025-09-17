@@ -17,7 +17,7 @@
 4. **Defining functions -** I know how to write a function in JavaScript and the steps of calling a function. Still, I sometimes forget when to use functions efficiently or how to do it correctly. The more I practice, the more I become confident in using functions to solve larger problems.
 5. **Methods within the Number objects to manipulate data -** I know the functionalities of each method such as the conversion of strings to numbers and formatting numbers. But, I do not have enough practice to confidently apply them when I come across a new problem. Frequently, I am confused with the methods. So more examples and exercises would be helpful to me.
 
-**Describe what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.**
+**Describe what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.**   
 My plan to action in order to help myself in understanding the topics is to try to dedicate more time to do more coding exercises that focus on such topics that I need to full grasp and improve. I will review the notes I take down during class to help me recall the topics. Lastly, I will consult the help of online materials, my classmates, or my teacher to avoid getting stuck and bringing that to the lessons afterward.
 
 **In the activities that were done in class, list at least two that you think were effective and at least two that you think are not effective in helping you understand topics in our course and why?**
